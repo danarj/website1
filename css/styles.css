@@ -8,6 +8,7 @@
   --color-accent: #1a1a1a;
   --color-heading: #fff;
   --color-body: #aaa;
+  --icon-color-gradient: url(#icon-gradient);
 }
 html {
   font-size: 62.5%;
@@ -45,4 +46,15 @@ h3 {
 .list--inline .list__item {
   display: inline-block;
   margin-right: 3rem;
+}
+/* Icons */
+.icon {
+  height: 50px;
+  width: 50px;
+}
+.icon--primary {
+  fill: var(--color-heading);
+}
+.icon--secondary {
+  fill: var(--icon-color-gradient);
 }
