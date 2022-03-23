@@ -9,7 +9,7 @@
   --color-heading: #fff;
   --color-body: #aaa;
   --icon-color-gradient: url(#icon-gradient);
-  --border-radius: 2rem;
+  --border-radius: 4rem;
 }
 *,
 *::after,
@@ -68,15 +68,19 @@ h3 {
   fill: var(--icon-color-gradient);
 }
 /* Buttons */
-.button {
+.btn {
   font-size: 1.4rem;
   font-weight: bold;
   text-transform: uppercase;
   padding: 2.4rem 5rem;
   border-radius: 4rem;
   border: 0;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
-.button--secondary {
+.btn--secondary {
   background: var(--color-secondary);
   color: #fff;
 }
@@ -123,10 +127,22 @@ h3 {
   border-radius: var(--border-radius);
 }
 /* Inputs */
-input[type="text"],
-input[type="email"] {
+.input {
   padding: 2.5rem 4.4rem;
-  border-radius: 5rem;
+  border-radius: var(--border-radius);
   border: 0;
   outline: 0;
+  color: #bfbfbf;
+}
+.input-group {
+  display: flex;
+  border-radius: var(--border-radius);
+  background-color: #fff;
+}
+.input-group .input {
+  flex-grow: 1;
+}
+.input-group .btn {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
 }
