@@ -122,3 +122,11 @@ h3 {
   transform: translateX(-13rem) scale(1.14);
   border-radius: var(--border-radius);
 }
+/* Inputs */
+input[type="text"],
+input[type="email"] {
+  padding: 2.5rem 4.4rem;
+  border-radius: 5rem;
+  border: 0;
+  outline: 0;
+}
