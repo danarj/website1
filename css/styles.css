@@ -191,3 +191,28 @@ h4 {
 .grid--1x2 {
   grid-template-columns: repeat(2, 1fr);
 }
+/* Blocks */
+.block {
+  padding: 8rem 2rem;
+  /* border: 2px solid yellow; */
+}
+.block__header {
+  text-align: center;
+}
+.block__heading {
+  margin-top: 0;
+}
+.block--primary {
+  background: var(--color-primary);
+}
+.block--secondary {
+  background: var(--color-secondary);
+  color: #fff;
+}
+.block--accent {
+  background: var(--color-accent);
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
