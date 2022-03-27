@@ -286,3 +286,9 @@ a {
   width: 481px;
   top: 0;
 }
+/* Block Features */
+.features-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.6rem;
+}
