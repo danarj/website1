@@ -351,3 +351,10 @@ a {
   width: 117rem;
 }
 /* Block Story */
+.number__content {
+  display: flex;
+  justify-content: space-between;
+}
+.number__heading {
+  margin-bottom: 2.4rem;
+}
