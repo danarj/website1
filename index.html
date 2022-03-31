@@ -13,10 +13,7 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <!-- <script
-      src="https://kit.fontawesome.com/c05f0dbdbd.js"
-      crossorigin="anonymous"
-    ></script> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
       rel="stylesheet"
@@ -33,5 +30,339 @@
         <stop offset="100%" stop-color="#f77062" />
       </linearGradient>
     </svg>
+    <header class="header">
+      <nav class="nav">
+        <a href="/" class="nav__brand"><img src="images/logo.svg" alt="" /></a>
+        <ul class="list nav__list">
+          <li class="nav__item"><a href="#">Home</a></li>
+          <li class="nav__item"><a href="#">Services</a></li>
+          <li class="nav__item"><a href="#">Portfolio</a></li>
+          <li class="nav__item"><a href="#">Pricing</a></li>
+          <li class="nav__item"><a href="#">About</a></li>
+          <li class="nav__item"><a href="#">Blog</a></li>
+        </ul>
+        <button class="btn btn--secondary btn--small">Contact US</button>
+      </nav>
+      <section class="block container header__content" data-aos="zoom-in">
+        <header class="block__header">
+          <h1 class="block__heading">We Provide Services</h1>
+          <p>
+            <button class="btn btn--secondary">Contact US</button>
+          </p>
+        </header>
+      </section>
+      <div class="header__donut"></div>
+      <img src="images/coloroverlay.png" alt="" class="header__overlay" />
+    </header>
+    <section class="block block--primary features-block" data-aos="zoom-in-up">
+      <article class="feature">
+        <svg class="icon icon--secondary feature__icon">
+          <use xlink:href="images/sprite.svg#search2"></use>
+        </svg>
+        <div class="feature__body">
+          <h3 class="feature__title">Fermentum</h3>
+          <p>
+            Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
+            egestas eget quam. Integer posu
+          </p>
+        </div>
+      </article>
+      <article class="feature">
+        <svg class="icon icon--secondary feature__icon">
+          <use xlink:href="images/sprite.svg#group2"></use>
+        </svg>
+        <div class="feature__body">
+          <h3 class="feature__title">Parturient Dolor</h3>
+          <p>
+            Vestibulum id ligula porta felis euismod semper. Cum sociis natoque
+            penatibus et magnis dis parturient montes,
+          </p>
+        </div>
+      </article>
+      <article class="feature">
+        <svg class="icon icon--secondary feature__icon">
+          <use xlink:href="images/sprite.svg#person"></use>
+        </svg>
+        <div class="feature__body">
+          <h3 class="feature__title">Nibh Risus</h3>
+          <p>
+            Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed
+            posuere consectetur est at lobortis.
+          </p>
+        </div>
+      </article>
+    </section>
+    <section class="block block--accent callout-block" data-aos="zoom-in-up">
+      <div class="container callout__content">
+        <header class="block__header callout__header">
+          <h2 class="block__heading">Our Services for You</h2>
+          <p>
+            Etiam porta sem malesuada magna mollis euismod. Aenean lacinia
+            bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra
+            augue. Maecenas faucibus mollis interdum. Cras justo odio, dapibus
+            ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis
+            euismod semper.
+          </p>
+        </header>
+        <div class="callout__body">
+          <button class="btn btn--secondary callout__btn">Contact US</button>
+
+          <div class="image-cotainer image-cotainer--large callout__image">
+            <img
+              src="images/workspace.jpg"
+              alt="A person using a smartphone with a laptop."
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block block--primary container story-block">
+      <article class="grid grid--1x2 story" data-aos="fade-left">
+        <div class="story__content">
+          <header class="story__head">
+            <h2 class="story__heading">Our Story</h2>
+            <p class="story__text">
+              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </p>
+          </header>
+          <div class="grid grid--1x2 story__media">
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--secondary">
+                  <use xlink:href="images/sprite.svg#structure"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h4 class="media__title">Cras Sem</h4>
+                <p>Errem meliore vive an quem electram eos</p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--secondary">
+                  <use xlink:href="images/sprite.svg#line-chart1"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h4 class="media__title">Parturient</h4>
+                <p>Errem meliore vive an quem electram eos.</p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--secondary">
+                  <use xlink:href="images/sprite.svg#pen-ruler1"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h4 class="media__title">Venenatis Dolor</h4>
+                <p>Errem meliore vive an quem electram eos.</p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--secondary">
+                  <use xlink:href="images/sprite.svg#molecular"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h4 class="media__title">Dolor Amet</h4>
+                <p>Errem meliore vive an quem electram eos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="image-cotainer image-cotainer--medium image-cotainer--shadow story__image"
+        >
+          <img
+            src="images/woman.jpg"
+            alt="A person using a smartphone with a laptop."
+          />
+        </div>
+      </article>
+      <article class="grid grid--1x2 story" data-aos="fade-right">
+        <div class="story__content">
+          <header class="story__head">
+            <h2 class="story__heading">About Us</h2>
+            <p class="story__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              eu quam ac nisl iaculis feugiat at at mol metus. Ulmi Donec ex ac,
+            </p>
+          </header>
+          <button class="btn btn--secondary">Read More</button>
+        </div>
+        <div class="image-cotainer story__image">
+          <img
+            src="images/laptop_smartphone.jpg"
+            alt="A person using a smartphone with a laptop."
+          />
+        </div>
+      </article>
+    </section>
+    <section class="block block--secondary numbers-block" data-aos="fade-up">
+      <div class="container">
+        <article class="number">
+          <header class="block__header number__head">
+            <h2 class="block__heading number__heading">564</h2>
+            <p>Projects</p>
+          </header>
+        </article>
+        <article class="number">
+          <header class="block__header number__head">
+            <h2 class="block__heading number__heading">69</h2>
+            <p>Photos</p>
+          </header>
+        </article>
+        <article class="number">
+          <header class="block__header number__head">
+            <h2 class="block__heading number__heading">564</h2>
+            <p>Projects</p>
+          </header>
+        </article>
+        <article class="number">
+          <header class="block__header number__head">
+            <h2 class="block__heading number__heading">69</h2>
+            <p>Photos</p>
+          </header>
+        </article>
+      </div>
+    </section>
+    <section
+      class="block block--primary container blog-block"
+      data-aos="zoom-out-down"
+    >
+      <header class="block__header blog__header">
+        <h2 class="block__heading">Our Blog</h2>
+        <!-- <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate,
+            facilis.
+          </p> -->
+      </header>
+      <article class="blog__cards">
+        <article class="card">
+          <header class="card__header">
+            <div class="image-cotainer image-cotainer--medium card__image">
+              <img
+                src="images/twomen.jpg"
+                alt="Two gentlgmen watching mobile."
+              />
+            </div>
+            <h3 class="card__heading">Ornare Elit</h3>
+          </header>
+          <p class="card__content">Business</p>
+        </article>
+
+        <article class="card">
+          <header class="card__header">
+            <div class="image-cotainer image-cotainer--medium card__image">
+              <img
+                src="images/laptop.jpg"
+                alt="A person using a smartphone with a laptop."
+              />
+            </div>
+            <h3 class="card__heading">Egestas Bibendum</h3>
+          </header>
+          <p class="card__content">Consultance</p>
+        </article>
+
+        <article class="card">
+          <header class="card__header">
+            <div class="image-cotainer image-cotainer--medium card__image">
+              <img
+                src="images/manwlking.jpg"
+                alt="A person using a smartphone with a laptop."
+              />
+            </div>
+            <h3 class="card__heading">Parturient Venenatis</h3>
+          </header>
+          <p class="card__content">Business</p>
+        </article>
+      </article>
+    </section>
+    <section
+      class="block block--accent subscription-block"
+      data-aos="zoom-in-up"
+    >
+      <div class="container">
+        <header class="block__header subscription__head">
+          <h2 class="block__heading">Subscribe to Our Newsletter</h2>
+          <div class="input-group">
+            <input type="email" class="input" placeholder="Your e-mail" />
+            <button class="btn btn--secondary">Subscribe</button>
+          </div>
+        </header>
+        <footer class="subscription__foot">
+          <p>
+            Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus
+            commodo, tortor. Morbi leo risus, porta ac consectetur ac,
+            vestibulum at eros
+          </p>
+        </footer>
+      </div>
+    </section>
+    <footer class="block block--primary footer">
+      <div class="container grid footer__sections">
+        <div class="footer__brand">
+          <img src="images/logo.svg" alt="" class="footer__logo" />
+          <p class="footer__aboutus">
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+            Cumagnis dis parturient montes,
+          </p>
+          <p class="footer__copyright">Egestas Nibh Bibendum</p>
+        </div>
+        <section class="footer__section">
+          <header>
+            <h4 class="footer__heading">Navigation</h4>
+          </header>
+          <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact US</a></li>
+          </ul>
+        </section>
+        <section class="footer__section">
+          <header>
+            <h4 class="footer__heading">Navigation</h4>
+          </header>
+          <ul class="list">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </section>
+        <section class="footer__section footer__socialmedia">
+          <header>
+            <h4 class="footer__heading">Follow Us</h4>
+            <ul class="list list--inline">
+              <li class="list__item">
+                <a href="#"><i class="fa fa-brands fa-facebook"></i></a>
+              </li>
+              <li class="list__item">
+                <a href="#"><i class="fa fa-brands fa-twitter"></i></a>
+              </li>
+              <li class="list__item">
+                <a href="#"><i class="fa fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="list__item">
+                <a href="#"><i class="fa fa-solid fa-basketball"></i></a>
+              </li>
+            </ul>
+          </header>
+        </section>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

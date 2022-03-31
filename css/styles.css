@@ -261,7 +261,7 @@ a {
   background-image: url(/images/headerbg.jpg);
   background-size: cover;
   width: 100%;
-  height: 97rem;
+  padding-bottom: 11.5rem;
 }
 .header__content {
   width: 62rem;
@@ -337,8 +337,9 @@ a {
 .features-block {
   display: flex;
   justify-content: space-between;
-  padding: 0 1.6rem;
+  padding: 12rem;
 }
+
 /* Block Callout */
 .callout__content {
   margin: 0 auto;
@@ -397,12 +398,18 @@ a {
   margin: 0 auto;
   width: 61rem;
 }
+/* Block Story */
+.story-block {
+  padding-top: 39rem;
+  padding-bottom: 15rem;
+}
 /* Block Footer */
 .footer {
   padding-top: 8.8rem;
 }
 .footer__sections {
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  justify-items: end;
 }
 .footer__logo {
   width: 11.5rem;
