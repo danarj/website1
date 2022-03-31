@@ -397,3 +397,26 @@ a {
   margin: 0 auto;
   width: 61rem;
 }
+/* Block Footer */
+.footer {
+  padding-top: 8.8rem;
+}
+.footer__sections {
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+.footer__logo {
+  width: 11.5rem;
+  height: 3rem;
+}
+.footer a {
+  color: var(--color-body);
+  transition: color 0.15s;
+}
+.footer a:hover {
+  color: #fff;
+}
+.footer__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 18rem;
+}
